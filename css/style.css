@@ -6,12 +6,16 @@
 
 header{
     background-color: orange;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
 }
 
 .header-container {
     max-width: 1200px;
-    min-width: 500px;
-    margin: 0 auto;
+    min-width: 500px; 
+    margin: 0 auto; 
     display: flex;
     align-items: center;
 }
@@ -50,4 +54,12 @@ li {
     color: white;
     font-size: 20px;
     padding-right: 5px;
+}
+
+.main-container {
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
