@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orange;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    flex-basis: 33.3%;
+}
+
+.flex-container-menu {
+    flex-basis: 33.3%;
+}
+
+.img-size-logo {
+    width: 20%;
+}
+
