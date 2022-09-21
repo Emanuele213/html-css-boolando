@@ -68,6 +68,18 @@ li {
     height: 462px;
 }
 
+.img-second {
+   display: none;
+}
+
+ .img-display:hover .overlay {
+    display: none;
+}
+
+.img-display:hover .img-second {
+    display: inline;
+}
+
 .red{
     color: red;
     display: inline;
